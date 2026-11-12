@@ -1,0 +1,452 @@
+{
+  "generatedAt": "2026-11-12T11:59:07.179Z",
+  "framework": "CopilotKit Vue (@copilotkit/vue) + BuiltInAgent runtime",
+  "videoPrefix": "BUILTIN-vue",
+  "clips": {
+    "quickstart": {
+      "order": 1,
+      "id": "quickstart",
+      "name": "Getting Started - Quickstart",
+      "file": "BUILTIN-vue-01-Quickstart.webm",
+      "sources": [
+        "frontend/package.json",
+        "frontend/src/routes/quickstart/demo-chat/DemoChat.vue",
+        "frontend/src/App.vue",
+        "backend/server.ts"
+      ],
+      "sourceSha": "21a7644e2fea",
+      "recordedAt": "2026-11-12T11:16:09.821Z",
+      "bytes": 8356958,
+      "sha256": "c0c398360fbd",
+      "status": "new"
+    },
+    "prebuilt-components": {
+      "order": 2,
+      "id": "prebuilt-components",
+      "name": "Basics - Prebuilt Components",
+      "file": "BUILTIN-vue-02-PrebuiltComponents.webm",
+      "sources": [
+        "frontend/src/routes/prebuilt-components/demo-chat/DemoChat.vue",
+        "frontend/src/demos/prebuilt/Suggestions.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "ad71527f5297",
+      "recordedAt": "2026-11-12T11:17:22.725Z",
+      "bytes": 9301845,
+      "sha256": "9105bab228fe",
+      "status": "new"
+    },
+    "prebuilt-components-chat": {
+      "order": 3,
+      "id": "prebuilt-components-chat",
+      "name": "Basics - CopilotChat",
+      "file": "BUILTIN-vue-03-CopilotChat.webm",
+      "sources": [
+        "frontend/src/routes/prebuilt-components/chat/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "976f8b13cd36",
+      "recordedAt": "2026-11-12T11:18:08.591Z",
+      "bytes": 8409460,
+      "sha256": "40d8693baca4",
+      "status": "new"
+    },
+    "prebuilt-components-sidebar": {
+      "order": 4,
+      "id": "prebuilt-components-sidebar",
+      "name": "Basics - CopilotSidebar",
+      "file": "BUILTIN-vue-04-CopilotSidebar.webm",
+      "sources": [
+        "frontend/src/routes/prebuilt-components/sidebar/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "0aaa3bad532a",
+      "recordedAt": "2026-11-12T11:18:53.740Z",
+      "bytes": 7633512,
+      "sha256": "3bfe47aa8e5c",
+      "status": "new"
+    },
+    "prebuilt-components-popup": {
+      "order": 5,
+      "id": "prebuilt-components-popup",
+      "name": "Basics - CopilotPopup",
+      "file": "BUILTIN-vue-05-CopilotPopup.webm",
+      "sources": [
+        "frontend/src/routes/prebuilt-components/popup/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "e4899dd8e676",
+      "recordedAt": "2026-11-12T11:19:36.213Z",
+      "bytes": 6195924,
+      "sha256": "1073f6893a03",
+      "status": "new"
+    },
+    "prebuilt-components-chat-controls": {
+      "order": 6,
+      "id": "prebuilt-components-chat-controls",
+      "name": "Basics - Open, close & feedback",
+      "file": "BUILTIN-vue-06-ChatControls.webm",
+      "sources": [
+        "frontend/src/routes/prebuilt-components/chat-controls/demo-chat/DemoChat.vue",
+        "frontend/src/routes/prebuilt-components/chat-controls/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "24e061ea40f4",
+      "recordedAt": "2026-11-12T11:20:25.913Z",
+      "bytes": 9479344,
+      "sha256": "617125b2e627",
+      "status": "new"
+    },
+    "custom-look-and-feel-slots": {
+      "order": 7,
+      "id": "custom-look-and-feel-slots",
+      "name": "Basics - Slots",
+      "file": "BUILTIN-vue-07-Slots.webm",
+      "sources": [
+        "frontend/src/routes/custom-look-and-feel/slots/demo-chat/DemoChat.vue",
+        "frontend/src/demos/slots/CustomMessageView.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "541f142d9833",
+      "recordedAt": "2026-11-12T11:52:46.659Z",
+      "bytes": 14770321,
+      "sha256": "260948d8974c",
+      "status": "new"
+    },
+    "custom-look-and-feel-headless-ui": {
+      "order": 8,
+      "id": "custom-look-and-feel-headless-ui",
+      "name": "Basics - Fully Headless UI",
+      "file": "BUILTIN-vue-08-HeadlessUI.webm",
+      "sources": [
+        "frontend/src/demos/headless/HeadlessChat.vue",
+        "frontend/src/demos/headless/RenderedMessages.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "5a981bf6fe61",
+      "recordedAt": "2026-11-12T11:57:52.938Z",
+      "bytes": 8118232,
+      "sha256": "7e6ec7c9c6cd",
+      "status": "new"
+    },
+    "programmatic-control": {
+      "order": 9,
+      "id": "programmatic-control",
+      "name": "Basics - Programmatic Control",
+      "file": "BUILTIN-vue-09-ProgrammaticControl.webm",
+      "sources": [
+        "frontend/src/demos/programmatic/AgentTrigger.vue",
+        "backend/agents/index.ts",
+        "frontend/package.json"
+      ],
+      "sourceSha": "34b818630861",
+      "recordedAt": "2026-11-12T11:24:50.710Z",
+      "bytes": 9438856,
+      "sha256": "77b1323c6193",
+      "status": "new"
+    },
+    "inspector": {
+      "order": 10,
+      "id": "inspector",
+      "name": "Basics - Inspector",
+      "file": "BUILTIN-vue-10-Inspector.webm",
+      "sources": [
+        "frontend/src/routes/inspector/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "b78c52dfe560",
+      "recordedAt": "2026-11-12T11:25:40.338Z",
+      "bytes": 9322677,
+      "sha256": "335c97938297",
+      "status": "new"
+    },
+    "threads-drawer": {
+      "order": 11,
+      "id": "threads-drawer",
+      "name": "Basics - Threads Drawer",
+      "file": "BUILTIN-vue-11-ThreadsDrawer.webm",
+      "sources": [
+        "frontend/src/routes/threads/drawer/demo-chat/DemoChat.vue",
+        "frontend/src/demos/threads/ControlledChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "ba3d4966abae",
+      "recordedAt": "2026-11-12T11:26:40.435Z",
+      "bytes": 9429631,
+      "sha256": "129b80fbd4ff",
+      "status": "new"
+    },
+    "threads-headless": {
+      "order": 12,
+      "id": "threads-headless",
+      "name": "Basics - Headless Threads",
+      "file": "BUILTIN-vue-12-HeadlessThreads.webm",
+      "sources": [
+        "frontend/src/demos/threads/ThreadSidebar.vue",
+        "frontend/src/routes/threads/headless/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "9290aa617bb9",
+      "recordedAt": "2026-11-12T11:27:28.992Z",
+      "bytes": 8051407,
+      "sha256": "0d7d5237f314",
+      "status": "new"
+    },
+    "threads-lifecycle": {
+      "order": 13,
+      "id": "threads-lifecycle",
+      "name": "Basics - Thread History Lifecycle",
+      "file": "BUILTIN-vue-13-ThreadsLifecycle.webm",
+      "sources": [
+        "frontend/src/routes/threads/lifecycle/demo-chat/DemoChat.vue",
+        "frontend/src/demos/threads/RestoreHistory.vue",
+        "frontend/src/demos/threads/ThreadControls.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "b818207634e7",
+      "recordedAt": "2026-11-12T11:48:52.197Z",
+      "bytes": 11108124,
+      "sha256": "4c65fee7fd19",
+      "status": "new"
+    },
+    "generative-ui-mcp-apps": {
+      "order": 14,
+      "id": "generative-ui-mcp-apps",
+      "name": "Generative UI - MCP Apps",
+      "file": "BUILTIN-vue-14-McpApps.webm",
+      "sources": [
+        "backend/server.ts",
+        "frontend/src/routes/generative-ui/mcp-apps/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "05375590b5b0",
+      "recordedAt": "2026-11-12T11:30:19.627Z",
+      "bytes": 10180321,
+      "sha256": "3a1a1205eff3",
+      "status": "new"
+    },
+    "generative-ui-tool-rendering": {
+      "order": 15,
+      "id": "generative-ui-tool-rendering",
+      "name": "Generative UI - Tool Rendering",
+      "file": "BUILTIN-vue-15-ToolRendering.webm",
+      "sources": [
+        "frontend/src/demos/tool-rendering/PerToolRenderer.vue",
+        "frontend/src/demos/tool-rendering/WeatherToolCard.vue",
+        "backend/agents/index.ts",
+        "frontend/package.json"
+      ],
+      "sourceSha": "6a58d19f27f7",
+      "recordedAt": "2026-11-12T11:31:44.757Z",
+      "bytes": 11218126,
+      "sha256": "64d832995d20",
+      "status": "new"
+    },
+    "generative-ui-tool-based": {
+      "order": 16,
+      "id": "generative-ui-tool-based",
+      "name": "Generative UI - Component as tool",
+      "file": "BUILTIN-vue-16-ComponentAsTool.webm",
+      "sources": [
+        "frontend/src/demos/component-tool/AgentExperience.vue",
+        "frontend/src/demos/component-tool/WeatherCard.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "fd15e6354a14",
+      "recordedAt": "2026-11-12T11:32:31.739Z",
+      "bytes": 7163297,
+      "sha256": "28970b5982a0",
+      "status": "new"
+    },
+    "frontend-tools": {
+      "order": 17,
+      "id": "frontend-tools",
+      "name": "App Control - Frontend Tools",
+      "file": "BUILTIN-vue-17-FrontendTools.webm",
+      "sources": [
+        "frontend/src/demos/frontend-tools/DashboardAgent.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "83c745f89fb4",
+      "recordedAt": "2026-11-12T11:33:26.324Z",
+      "bytes": 7714679,
+      "sha256": "15e445cedbd7",
+      "status": "new"
+    },
+    "shared-state": {
+      "order": 18,
+      "id": "shared-state",
+      "name": "Shared State - Shared State",
+      "file": "BUILTIN-vue-18-SharedState.webm",
+      "sources": [
+        "frontend/src/demos/shared-state/SharedWorkspace.vue",
+        "backend/agents/index.ts",
+        "frontend/package.json"
+      ],
+      "sourceSha": "00d848dce48d",
+      "recordedAt": "2026-11-12T11:34:27.725Z",
+      "bytes": 10252672,
+      "sha256": "957429f85620",
+      "status": "new"
+    },
+    "shared-state-rendering-in-app": {
+      "order": 19,
+      "id": "shared-state-rendering-in-app",
+      "name": "Shared State - Render agent state in your app",
+      "file": "BUILTIN-vue-19-RenderingInApp.webm",
+      "sources": [
+        "frontend/src/demos/shared-state/Canvas.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "0b8df65e48b3",
+      "recordedAt": "2026-11-12T11:35:16.203Z",
+      "bytes": 8387716,
+      "sha256": "6cbc9e1aa8c8",
+      "status": "new"
+    },
+    "shared-state-agent-readonly": {
+      "order": 20,
+      "id": "shared-state-agent-readonly",
+      "name": "Shared State - Agent Read-Only Context",
+      "file": "BUILTIN-vue-20-AgentReadonly.webm",
+      "sources": [
+        "frontend/src/demos/shared-state/WorkspaceContext.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "caeb12ea7a2b",
+      "recordedAt": "2026-11-12T11:36:08.018Z",
+      "bytes": 6498273,
+      "sha256": "fe4de557a239",
+      "status": "new"
+    },
+    "human-in-the-loop": {
+      "order": 21,
+      "id": "human-in-the-loop",
+      "name": "HITL - Overview",
+      "file": "BUILTIN-vue-21-HitlOverview.webm",
+      "sources": [
+        "frontend/src/demos/hitl/MeetingApproval.vue",
+        "frontend/src/demos/hitl/TimePickerCard.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "bfa1ce74ef27",
+      "recordedAt": "2026-11-12T11:37:05.631Z",
+      "bytes": 9557879,
+      "sha256": "c581aa58d865",
+      "status": "new"
+    },
+    "human-in-the-loop-governed-actions": {
+      "order": 22,
+      "id": "human-in-the-loop-governed-actions",
+      "name": "HITL - Governed Action Approval UI",
+      "file": "BUILTIN-vue-22-GovernedActions.webm",
+      "sources": [
+        "frontend/src/demos/governed/GovernedActionTool.vue",
+        "frontend/src/demos/governed/GovernedActionCard.vue",
+        "frontend/src/demos/governed/GovernedActionApproval.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "0ff7cbf2ff37",
+      "recordedAt": "2026-11-12T11:38:13.401Z",
+      "bytes": 10041184,
+      "sha256": "df808356ef84",
+      "status": "new"
+    },
+    "backend-copilot-runtime": {
+      "order": 23,
+      "id": "backend-copilot-runtime",
+      "name": "Runtime - Copilot Runtime",
+      "file": "BUILTIN-vue-23-CopilotRuntime.webm",
+      "sources": [
+        "backend/server.ts",
+        "frontend/src/demos/runtime/DirectAgUi.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "3f7b8cdda29c",
+      "recordedAt": "2026-11-12T11:38:59.137Z",
+      "bytes": 9238475,
+      "sha256": "b879cb5a3413",
+      "status": "new"
+    },
+    "backend-runtime-endpoints": {
+      "order": 24,
+      "id": "backend-runtime-endpoints",
+      "name": "Runtime - Runtime HTTP endpoints",
+      "file": "BUILTIN-vue-24-RuntimeEndpoints.webm",
+      "sources": [
+        "frontend/src/routes/backend/runtime-endpoints/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "a118465c4879",
+      "recordedAt": "2026-11-12T11:40:07.301Z",
+      "bytes": 11408330,
+      "sha256": "f995b5911b80",
+      "status": "new"
+    },
+    "backend-custom-agent": {
+      "order": 25,
+      "id": "backend-custom-agent",
+      "name": "Runtime - Use any model router",
+      "file": "BUILTIN-vue-25-ModelRouter.webm",
+      "sources": [
+        "backend/agents/index.ts",
+        "backend/agents/index.ts",
+        "frontend/package.json"
+      ],
+      "sourceSha": "e04e88120e8c",
+      "recordedAt": "2026-11-12T11:41:05.316Z",
+      "bytes": 10690906,
+      "sha256": "60224f511a44",
+      "status": "new"
+    },
+    "backend-agent-runner": {
+      "order": 26,
+      "id": "backend-agent-runner",
+      "name": "Runtime - AgentRunner and persistence",
+      "file": "BUILTIN-vue-26-AgentRunner.webm",
+      "sources": [
+        "backend/server.ts",
+        "frontend/src/routes/backend/agent-runner/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "bdbbbafed3d8",
+      "recordedAt": "2026-11-12T11:41:51.508Z",
+      "bytes": 10117472,
+      "sha256": "cc06aba013d7",
+      "status": "new"
+    },
+    "backend-ag-ui": {
+      "order": 27,
+      "id": "backend-ag-ui",
+      "name": "Runtime - Connect AG-UI agents",
+      "file": "BUILTIN-vue-27-AgUi.webm",
+      "sources": [
+        "frontend/src/components/EventLog.vue",
+        "frontend/src/components/EventLog.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "a9238a61690c",
+      "recordedAt": "2026-11-12T11:42:39.026Z",
+      "bytes": 9495547,
+      "sha256": "058a80d636c5",
+      "status": "new"
+    },
+    "multi-agent-subagents": {
+      "order": 28,
+      "id": "multi-agent-subagents",
+      "name": "Runtime - SubAgents",
+      "file": "BUILTIN-vue-28-SubAgents.webm",
+      "sources": [
+        "backend/agents/index.ts",
+        "backend/agents/index.ts",
+        "frontend/src/routes/multi-agent/subagents/demo-chat/DemoChat.vue",
+        "frontend/package.json"
+      ],
+      "sourceSha": "4418701268c4",
+      "recordedAt": "2026-11-12T11:43:38.011Z",
+      "bytes": 11902108,
+      "sha256": "ca14f3ed9503",
+      "status": "new"
+    }
+  }
+}

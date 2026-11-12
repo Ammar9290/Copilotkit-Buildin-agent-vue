@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Dark mode follows the OS, like the reference harness. */
+@custom-variant dark (@media (prefers-color-scheme: dark));
+
+:root {
+  --accent: #10b981;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "Cascadia Code", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* CopilotChat fills its container, so anything holding one needs a height. */
+.chat-host {
+  height: 100%;
+  min-height: 20rem;
+}
+
+/* Shiki renders its own <pre class="shiki"> with an inline background; the
+   figure supplies the surface and scroll container. */
+.code-figure .shiki {
+  margin: 0;
+  padding: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.625;
+  background-color: transparent !important;
+}
+.code-figure .shiki code {
+  display: block;
+  width: max-content;
+  min-width: 100%;
+}
+
+/* Inline code in prose. */
+:where(p, li, dd, td, span) > code {
+  @apply rounded bg-slate-100 px-1 py-0.5 font-mono text-[0.8em] text-slate-800 dark:bg-slate-800 dark:text-slate-200;
+}
+
+/* ── Small vocabulary used by the doc-derived components in src/demos ───── */
+.panel {
+  @apply rounded-xl border border-slate-200 bg-white p-4 shadow-sm dark:border-slate-800 dark:bg-slate-900;
+}
+.panel h3 {
+  @apply mt-0 mb-2 text-sm font-semibold text-slate-900 dark:text-slate-100;
+}
+.row {
+  @apply flex flex-wrap items-center gap-2;
+}
+.muted {
+  @apply text-slate-500 dark:text-slate-400;
+}
+.event-log {
+  @apply max-h-[420px] overflow-auto rounded-lg bg-slate-50 p-2 font-mono text-xs dark:bg-slate-950;
+}
+.event-log > div {
+  @apply border-b border-slate-200 py-0.5 break-all dark:border-slate-800;
+}
+.badge {
+  @apply inline-flex items-center rounded-full border border-slate-300 px-2 py-0.5 text-xs font-medium dark:border-slate-700;
+}
+.badge[data-status="working"] {
+  @apply border-emerald-300 bg-emerald-50 text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-200;
+}
+.badge[data-status="untested"] {
+  @apply border-violet-300 bg-violet-50 text-violet-800 dark:border-violet-800 dark:bg-violet-950/60 dark:text-violet-200;
+}
+.btn {
+  @apply rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 disabled:opacity-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800;
+}
+.btn-primary {
+  @apply rounded-md bg-[var(--accent)] px-3 py-1.5 text-sm font-medium text-white shadow-sm disabled:opacity-50;
+}
+.tab {
+  @apply rounded-md px-3 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800;
+}
+.tab[aria-pressed="true"] {
+  @apply bg-slate-900 text-white hover:bg-slate-900 dark:bg-slate-100 dark:text-slate-900;
+}
+.field {
+  @apply rounded-md border border-slate-300 bg-white px-2 py-1 text-sm dark:border-slate-700 dark:bg-slate-900;
+}
+pre {
+  @apply max-h-[360px] overflow-auto rounded-lg bg-slate-50 p-3 font-mono text-xs dark:bg-slate-950;
+}
+.code-figure pre {
+  max-height: none;
+  border-radius: 0;
+  background: transparent;
+}

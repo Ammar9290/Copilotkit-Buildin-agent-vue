@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.smoke.log
+.x.awk
+
+# autorecorder run logs
+autorecorder/videos/*.log
